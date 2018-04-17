@@ -8,7 +8,15 @@ function closeNav() {
     document.getElementById("myNav").style.width = "0%";
 }
 
-function grayscaleHover {
-	document.getElementyByClass('about-grid');
-	onmouseover="this.src ='assets/img/about_color.png'" onmouseout="this.src ='assets/img/about_bw.png'";
-}
+$(document).ready(function(){
+    $(".work-square").onmouseover(function(){
+        $("img").fadeOut(1000, function(){
+            alert("fadeOut() method is finished!");
+        });
+    });
+    $(".work-square").onmouseout.function(){
+        $("img").fadeIn(1000, function(){
+            alert("fadeIn() method is finished!");
+        });
+    });
+});

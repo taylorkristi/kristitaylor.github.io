@@ -28,7 +28,7 @@ Colors: Botanica #3F4234
         Pure #A1BBD0
         Cover #F4E7D7
 
-Font Families:  Dosis 
+Font Families:  Cardo 
                 Open Sans
 
 
@@ -80,8 +80,8 @@ margin-bottom: 0px;
 }
 
 .display-4{
-    font-family: Dosis;
-    font-size: 5em;
+    font-family: Cardo;
+    font-size: 3em;
     padding-top: 200px;
     letter-spacing: .25em;
 
