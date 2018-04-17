@@ -44,22 +44,25 @@ body {
 }
 
 img {
-    max-height: 300px;
-    max-width: 100%;
-    filter: grayscale(); /* grayscale then hover to color version */
     padding: 0px;
     margin-left: 0px;
     margin-right: 0px;
+    max-height: 300px;
+    width: auto;
 }
 
 .padding-margin-reset {
-    padding: 0px;
-    margin: 0px;
+    padding: 0px!important;
+    margin: 0px!important;
 }
 
 .btn {
     border-color: #D1A827;
     background-color: #D1A827;
+}
+
+.grayscale {
+    filter: grayscale();
 }
 
 /* 2. Page Styling */
@@ -176,12 +179,6 @@ margin-bottom: 0px;
         right: 35px;
     }
 /* d. Grid */
-
-.grid-style {
-     
-}
-
-
 
 
 
